@@ -1,0 +1,46 @@
+/* ManageProfilePage.css */
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .profile-form {
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #e7f0ed;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .profile-field {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+  }
+  
+  .field-content {
+    position: relative;
+  }
+  
+  input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .edit-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+  }
+  

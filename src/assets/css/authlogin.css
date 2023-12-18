@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ececec;
+  }
+  
+  .auth-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .auth-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4; /* Updated background color */
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .login {
+    background-color: #f4f4f4;
+  }
+  
+  .signup {
+    background-color: #f4f4f4;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .form-box {
+    width: 100%;
+    max-width: 400px;
+    background-color: #333; /* Adjusted the box background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .auth-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .auth-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .toggle-form {
+    margin-top: 15px;
+    font-size: 14px;
+    span {
+      color: blue;
+      cursor: pointer;
+    }
+  }
+  
+  .auth-image {
+    flex: 1;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  

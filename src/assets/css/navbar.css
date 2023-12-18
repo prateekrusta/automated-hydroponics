@@ -1,0 +1,57 @@
+.logomain{
+    width: 50px;
+}
+
+.sideBar{
+    background-color: #e7f0ed;
+    padding: 30px;
+    margin: auto 0;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: fixed;
+}
+
+Link{
+    text-decoration: none !important;
+    text-decoration-color: transparent;
+}
+
+.sideBar-inner{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.sideBar .nav-links-inner{
+    margin: 30px 0;
+    transition: all 0.3s ease-in-out;
+    font-size: 25px;
+    padding: 8px 12px 5px 13px;
+    border-radius: 50px;
+}
+
+.sideBar .nav-links-inner i{
+    color: #6a8573 !important;
+}
+
+.sideBar .nav-links-inner:hover{
+    background-color: white;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.sideBar .nav-links-inner-bottom{
+    position: absolute !important;
+    bottom: 20px !important;
+    left: 50% !important;
+    padding: 10px 12px 6px 14px !important;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    font-size: 20px !important;
+    color: #6a8573;
+    margin: 0 !important;
+}
